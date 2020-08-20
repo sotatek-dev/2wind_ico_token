@@ -1,0 +1,43 @@
+{
+  "name": "social-good-contracts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "complie": "truffle complie",
+    "ganache-test": "truffle test --network ganache",
+    "deploy-rinkeby": "truffle deploy -f 2 --to 2 --network rinkeby",
+    "deploy-mainnet": "truffle deploy -f 2 --to 2 --network mainnet",
+    "verify-rinkeby": "truffle run verify SocialGoodToken --network rinkeby",
+    "verify-mainnet": "truffle run verify SocialGoodToken --network mainnet"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "eth-json-rpc-filters": "4.1.1",
+    "sol-merger": "2.0.1",
+    "truffle-plugin-verify": "0.3.11"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "2.5.0",
+    "@openzeppelin/test-helpers": "0.5.5",
+    "babel-core": "6.26.3",
+    "babel-loader": "7.1.4",
+    "babel-plugin-transform-runtime": "6.23.0",
+    "babel-polyfill": "6.26.0",
+    "babel-preset-env": "1.7.0",
+    "babel-preset-es2015": "6.24.1",
+    "babel-preset-stage-2": "6.24.1",
+    "babel-preset-stage-3": "6.24.1",
+    "babel-register": "6.26.0",
+    "chai": "4.2.0",
+    "dotenv": "8.2.0",
+    "mocha": "5.1.1",
+    "solidity-coverage": "0.5.11",
+    "truffle": "5.1.31",
+    "truffle-privatekey-provider": "1.3.0",
+    "uuidv4": "6.1.0",
+    "web3": "1.2.6"
+  }
+}

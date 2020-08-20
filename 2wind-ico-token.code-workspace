@@ -1,0 +1,15 @@
+{
+	"folders": [{
+		"path": "."
+	}],
+	"settings": {
+		"search.exclude": {
+			"**/.git": true,
+			"**/dist": true,
+			"**/build": true,
+		},
+		"solidity.compileUsingRemoteVersion": "v0.5.17+commit.d19bba13",
+		"editor.trimAutoWhitespace": true,
+		"editor.formatOnSave": true,
+	}
+}
